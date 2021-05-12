@@ -1,4 +1,5 @@
 # vite-plugin-sleep
+
 > vite is too fast, we need to rest. a vite-plugin you never need.
 
 <p align="center">
@@ -28,7 +29,7 @@ yarn add vite-plugin-sleep
 // vite.config.ts
 import sleep from 'vite-plugin-sleep'
 
-// @see {@link https://vitejs.dev/config/}
+/** @see {@link https://vitejs.dev/config/} */
 export default defineConfig({
   plugins: [
     // ...other plugins
